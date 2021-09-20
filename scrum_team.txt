@@ -2,18 +2,19 @@
 
     Author:
         Frank Alexander Díaz Cifuentes
+            frank.diaz@o365.unab.edu.co
 
         Gonzalo Rodríguez Mejia
+            gonzalorodriguezm@hotmail.com
+
+        Gloria Gutierrez
+            gloriagutierrez_45@hotmail.com
 
         Humberto Armando Cortés Garcia
             humberto.cortes@fuac.edu.co
 
         Juan Carlos Medina
 	    juank.medina@hotmail.com
-
-        Luis Jairo Sarmiento
-
-
 
     Formador:
         Juan Sebastián Cárdenas Arenas
