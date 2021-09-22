@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Cotización</title>
+  <!--   
+    <link rel="shortcut icon" href="favicon.ico" type="/img/logo_ic.jpeg">
+    -->
+  <meta charset="UTF-8">
+  <meta name="title" content="Inmobiliaria Candelaria. Tel. 3167874257">
+  <meta name="description" content="Descripción de la WEB">
+  <!--
+    <link href="http://dominio.com/hoja-de-estilos.css" rel="stylesheet" type="text/css"/>    
+    -->
+</head>
+<!-- --------------------------------INICIO DEL BODY------------------------- -->
+
+<body>
+  <!-- --------------------------------INICIO DEL HEADER------------------------- -->
+  <header>
+    <img src="img/logo_ic.png" alt=“logo”>
+    <h1>Inmobiliaria Candelaria. Tel. 3167874257</h1>
+  </header>
+  <!-- --------------------------------FIN DEL HEADER------------------------- -->
+
+
+  <!-- --------------------------------INICIO DEL NAV------------------------- -->
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="cotizacion.html">Cotización</a>
+    <a href="registro.html">Registrese</a>
+  </nav>
+  <!-- --------------------------------FIN DEL NAV------------------------- -->
+
+  <!-- --------------------------------INICIO DEL MAIN------------------------- -->
+
+
+  <!-- --------------------------------FIN DEL MAIN------------------------- -->
+
+  <!-- --------------------------------INICIO DEL SECTION------------------------- -->
+  <section>
+    <table>
+      <thead>
+        <h2>Inmuebles sugeridos</h2>
+        <h1>
+          <img src="img/Inmueble.jpg">
+          <tr>
+            <td><input type="button" value="Cotizar">
+            <td>
+          </tr>
+        </h1>
+      </thead>
+      <tbody>
+        <tr>
+          <td><label for="Ciudad">Ciudad</label></td>
+          <td> <select name="ciudad">
+              <option Value="-1">Seleccione la Ciudad</option>
+              <option Value="1">Bogota</option>
+              <option Value="2">Medellin</option>
+              <option Value="3">Cali</option>
+              <option Value="4">Bucaramanga</option>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="Zona">Zona</label></td>
+          <td> <select name="Zona">
+              <option Value="-1">Seleccione la zona</option>
+              <option Value="1">Norte</option>
+              <option Value="2">Centro</option>
+              <option Value="3">Sur</option>
+              <option Value="4">Occidente</option>
+              <option Value="5">Oriente</option>
+              <option Value="6">NorOccidente</option>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="Localidad">Localidad</label></td>
+          <td> <select name="Localidad">
+              <option Value="-1">Seleccione la Localidad</option>
+              <option Value="1">Usaquen</option>
+              <option Value="2">Teusaquillo</option>
+              <option Value="3">Suba</option>
+              <option Value="4">Martires</option>
+              <option Value="5">Sumapaz</option>
+              <option Value="6">Fontibon</option>
+          </td>
+        </tr>
+        <tr>
+          <td>Estrato:</td>
+          <td><input required type="number" name="estrato" placeholder="selecione el estrato"></td>
+        </tr>
+        <tr>
+          <td><label for="Tipo Inmueble">Tipo Inmueble</label></td>
+          <td> <select name="Tipo Inmueble">
+              <option Value="-1">Seleccione tipo de inmueble</option>
+              <option Value="1">Apartaestudio</option>
+              <option Value="2">Bodega</option>
+              <option Value="3">Consultorio</option>
+              <option Value="4">Fabrica</option>
+              <option Value="5">Casa</option>
+              <option Value="6">Apartamento</option>
+              <option Value="7">edificio</option>
+              <option Value="8">Terreno</option>
+              <option Value="9">Local</option>
+              <option Value="10">Finca</option>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="Elementos[]" value="1"> Sala</td>
+        </tr>
+        <tr>
+          <td><input required type="checkbox" name="Elementos[]" value="2"> Comedor</td>
+        </tr>
+        <tr>
+          <td><input required type="checkbox" name="Elementos[]" value="3"> Cocina</td>
+        </tr>
+        <tr>
+          <td><input required type="checkbox" name="Elementos[]" value="4"> Parqueadero</td>
+        </tr>
+        <tr>
+          <td><input required type="checkbox" name="Elementos[]" value="5"> Amoblado</td>
+        </tr>
+        <tr>
+          <td>Baños:</td>
+          <td><input required type="number" name="Baños" placeholder="selecione # de baños"></td>
+        </tr>
+        <tr>
+          <td>Alcobas:</td>
+          <td><input required type="number" name="Alcobas" placeholder="Digite # alcobas"></td>
+        </tr>
+        <tr>
+          <td>Precio Max:</td>
+          <td><input required type="text" name="precio MAX" placeholder="Digite precio MAx"></td>
+        </tr>
+        <tr>
+          <td><label for="Tipo servicio">Tipo servicio</label></td>
+          <td> <select name="Tipo servicio">
+              <option Value="-1">Seleccione tipo de servicio</option>
+              <option Value="1">Administración de propiedad Horizontal</option>
+              <option Value="2">Mantenimiento y reparación de inmuebles</option>
+              <option Value="3">Avalúo de renta</option>
+              <option Value="4">Asesoría y publicidad</option>
+              <option Value="5">Seguro de arrendamiento</option>
+              <option Value="6">Servicio de Aseo</option>
+              <option Value="7">Servicio de seguridad</option>
+          </td>
+        </tr>
+        <tr>
+          <td><input required type="checkbox" name="Anticipo[]" value="1"> Anticipo Anual</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="Tipo de persona" value="N"> Persona Natural
+          <td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="Tipo de persona" value="J"> Persona Juridica
+          <td>
+        </tr>
+        <tr>
+          <td><input type="button" value="Buscar">
+          <td>
+        </tr>
+
+      </tbody>
+    </table>
+  </section>
+  <!-- --------------------------------FIN DEL SECTION------------------------- -->
+
+
+  <!-- --------------------------------INICIO DEL ASIDE------------------------- -->
+  <aside>
+    <table>
+      <thead>
+        <h2>Inicio de sesión</h2>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Usuario:</td>
+          <td><input required type="text" name="usuario" placeholder="Escriba su usuario"></td>
+        </tr>
+        <tr>
+          <td>Contraseña:</td>
+          <td><input required type="password" name="password"></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="Ingresar"></td>
+        </tr>
+        <tr>
+          <td><a href="registro.html">Registrese</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </aside>
+  <!-- --------------------------------FIN DEL ASIDE------------------------- -->
+
+
+  <!-- --------------------------------INICIO DEL FOOTER------------------------- -->
+  <footer>
+    <p>Contactenos:</p>
+    <a href="mailto:servicioalcliente@inmobiliariacandelaria.com.co">servicioalcliente@inmobiliariacandelaria.com.co</a>
+
+  </footer>
+  <!-- --------------------------------FIN DEL FOOTER------------------------- -->
+
+</body>
+<!-- --------------------------------FIN DEL BODY------------------------- -->
+
+</html>
