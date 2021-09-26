@@ -112,7 +112,7 @@ section button {
     border-radius: 0.4rem;
 }
 
-aside {
+.aside {
     grid-column: 4 / 5;
     grid-row: 3 / 4;
     background-color: #EFE8E8;
@@ -122,12 +122,12 @@ aside {
     font-weight: bold;
 }
 
-aside h2 {
+.aside h2 {
     font-size: 1rem;
     text-align: center;
 }
 
-aside input {
+.aside input {
     background-color: F9F9F7;
     border-radius: 0.3rem;
     padding: 0.2rem;
@@ -135,7 +135,7 @@ aside input {
     width: 95%;
 }
 
-aside button {
+.aside button {
     background-color: #B7A2A1;
     color: white;
     text-align: center;
@@ -146,20 +146,20 @@ aside button {
     border-radius: 0.2rem;
 }
 
-aside a:link {
+.aside a:link {
     color: #B7A2A1;
     margin-left: 0.4rem;
 }
 
-aside a:visited {
+.aside a:visited {
     color: #283EFE;
 }
 
-aside a:hover {
+.aside a:hover {
     color: #000000;
 }
 
-aside a {
+.aside a {
     width: 95%;
     text-align: center;
 }
