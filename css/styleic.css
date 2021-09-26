@@ -1,0 +1,199 @@
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet"> 
+
+.g-body {
+    display: grid;
+    grid-template-columns: 13rem auto auto 13rem;
+    grid-template-rows: 2.53rem 2.53rem auto 2rem;
+    height: 100hv;
+    font-family: 'Roboto', sans-serif;
+    padding: 0rem;
+    margin: 0rem;
+    gap: 0rem;
+}
+
+img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    max-width: 60%;
+    height: auto;
+    margin: 0px auto auto;
+}
+
+div {
+    grid-column: 2 / 5;
+    grid-row: 1 / 2;
+    background-color: #B7A2A1;
+    color: white;
+    font-family: 'Iceberg', cursive;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+}
+
+nav {
+    grid-column: 2 / 5;
+    grid-row: 2 / 3;
+    background-color: #B7A2A1;
+    color: white;
+    font-family: 'Iceberg', cursive;
+    font-size: 2rem;
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+}
+
+.nav-link a:link {
+    color: #FFFFFF;
+}
+
+.nav a:visited {
+    color: #FFFFFF;
+}
+
+.nav a:hover {
+    color: #283EFE
+}
+
+section {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    margin: auto auto auto;
+}
+
+section p {
+    background-color: #EFE8E8;
+    color: #7A6B6C;
+    width: 100%;
+    text-align: center;
+    height: 1.5rem;
+    border-radius: 0.4rem;
+    
+}
+
+section img {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    display: inline-block;
+    margin: auto;
+    border-radius: 0.4rem;
+}
+
+section table {
+
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    display: inline-block;
+}
+
+section table th {
+    background-color: #B7A2A1;
+    color: white;
+    border: 0.0625rem white;
+    font-style: normal;
+    text-align: left;
+}
+
+section table td {
+    background-color: #EFE8E8;
+    border: 0.0625rem;
+    border-top: #B7A2A1;
+    border-right: #B7A2A1;
+    border-bottom: #B7A2A1;
+}
+
+section div {
+    grid-column: 2 / 4;
+    background-color: white;
+}
+
+section button {
+    background-color: #B7A2A1;
+    color: white;
+    width: 4rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+}
+
+aside {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    background-color: #EFE8E8;
+    color: #7A6B6C;
+    margin: 0.8rem;
+    border-radius: 0.4rem;
+}
+
+aside h2 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+aside input {
+    background-color: F9F9F7;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    display: inline-block;
+    width: 95%;
+}
+
+aside button {
+    background-color: #B7A2A1;
+    color: white;
+    text-align: center;
+    border: none;
+    display: inline-block;
+    width: 95%;
+    margin: 0.4rem auto auto 0.4rem;
+    border-radius: 0.2rem;
+}
+
+aside a:link {
+    color: #B7A2A1;
+    margin-left: 0.4rem;
+}
+
+aside a:visited {
+    color: #283EFE;
+}
+
+aside a:hover {
+    color: #000000;
+}
+
+aside a {
+    width: 95%;
+    text-align: center;
+}
+
+footer {
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+    background-color: #B7A2A1;
+    color: white;
+    font-size: 1rem;
+    text-align: end;
+    border-radius: 0.4rem;
+}
+
+footer a:link {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: #283EFE;
+}
+
+footer p {
+    display: inline;
+}
