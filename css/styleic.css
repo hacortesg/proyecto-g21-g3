@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
 .g-body {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -29,6 +39,93 @@ div {
     border-top-left-radius: 0.4rem;
     border-top-right-radius: 0.4rem;
 }
+
+.header{
+    width: 100%;
+    height: 15vh;
+   background: #7A6B6C;
+    display: flex;
+    flex-flow: nowrap;
+}
+
+.logo {
+    width: 15vh%;
+    height: 15vh;
+    padding-left: 15px;
+    padding-top: 15px;
+    float: left;
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.titulo{
+    padding: 15px;
+    height: 20vh;
+    margin-left: 15px;
+    text-align:center;
+    vertical-align: middle;
+    align-self: center;
+    font-size: 60px;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+.nav{
+    width: 100%;
+    height: 50vh;
+    float: left;
+    background:  background: #7A6B6C;
+    padding-top: 0;
+    display: flex;
+}
+
+.main-nav{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0;
+    background: #7A6B6C;
+   
+}
+
+.main-nav__item{
+    display: inline-block;
+    
+}
+
+/*tipo de letra del menú del nav*/
+.main-nav__item a {
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px;
+    
+}
+
+.main-nav__item a:hover {
+    color: #4a5350;
+}
+
+.main-nav__item a:active {
+    color: #7A6B6C;
+}
+
+
+
+
+
 
 nav {
     grid-column: 2 / 5;
@@ -112,6 +209,7 @@ section button {
     border-radius: 0.4rem;
 }
 
+/*este estilo es el que se aplica al aside*/
 aside {
     grid-column: 4 / 5;
     grid-row: 3 / 4;
@@ -126,6 +224,7 @@ aside h2 {
     font-size: 1rem;
     text-align: center;
 }
+
 
 aside input {
     background-color: F9F9F7;
@@ -164,32 +263,7 @@ aside a {
     text-align: center;
 }
 
-footer {
-    grid-column: 1 / 5;
-    grid-row: 4 / 5;
-    background-color: #B7A2A1;
-    color: white;
-    font-size: 1rem;
-    text-align: end;
-    border-radius: 0.4rem;
-    margin-top: 0.5rem;
-}
 
-footer a:link {
-    color: white;
-}
-
-footer a:visited {
-    color: white;
-}
-
-footer a:hover {
-    color: #283EFE;
-}
-
-footer p {
-    display: inline;
-}
 
 /*@media screen and (min-width: 40rem) and (max-width:49) {*/
 @media all and (max-width: 40rem) {
@@ -222,11 +296,85 @@ footer p {
         grid-row: 4 / 5;
     }
 
-    footer {
-        grid-column: 1 / 5;
-        grid-row: 5 / 6;
-    }
-    footer p{
-        display: block;
-    }
+   
+
+
+footer{
+    background-image: linear-gradient(0deg, #7A6B6C 0%, #EFE8E8 100%);
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex; /*flex espara dar la dirección de los elementos del footer alinearlos*/
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-us{
+    width: 40%;
+    color: #fff;
+}
+
+.brand{
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.brand+p{
+    font-weight: 500;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 90%;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.social-media-icon:hover{
+    background: #fff;
+    color:#7A6B6C;
+}
+
+.pie{
+    clear: both;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 0;
+    font-size: 11px;
+    line-height: 15px;
+    color: #fff;
+}
 }
