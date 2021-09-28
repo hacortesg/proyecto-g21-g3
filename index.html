@@ -6,54 +6,52 @@
   <!--   
     <link rel="shortcut icon" href="favicon.ico" type="/img/logo_ic.jpeg">
     -->
-    <meta charset="UTF-8">
-    <meta name="title" content="Inmobiliaria Candelaria. Tel. 3167874257">
-    <meta name="description" content="Descripción de la WEB">    
+  <meta charset="UTF-8">
+  <meta name="title" content="Inmobiliaria Candelaria. Tel. 3167874257">
+  <meta name="description" content="Descripción de la WEB">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/styleic.css">
-    <link href="http://dominio.com/hoja-de-estilos.css" rel="stylesheet" type="text/css"/>    
-  </head>  
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/styleic.css">
+  <link href="http://dominio.com/hoja-de-estilos.css" rel="stylesheet" type="text/css" />
+</head>
 <!-- --------------------------------INICIO DEL BODY------------------------- -->
 
-<body>
+<body class="g-body">
   <!-- --------------------------------INICIO DEL HEADER------------------------- -->
   <header class="header">
     <div class="container">
       <div class="logo">
-        <img class="logotipo" src="img/logo_ic.png" alt="" /img> 
+        <img class="logotipo" src="img/logo_ic.png" alt="" /img>
       </div>
-      
+
     </div>
-<div class="texto-principal">
-        <h1 class="titulo">Inmobiliaria Candelaria</h1>
-      </div>
+    <div class="texto-principal">
+      <h1 class="titulo">Inmobiliaria Candelaria</h1>
+    </div>
   </header>
 
   <!-- --------------------------------FIN DEL HEADER------------------------- -->
 
 
   <!-- --------------------------------INICIO DEL NAV------------------------- -->
-  <div class="navegacion">
-    <nav>
-      <ul class="main-nav">
-        <li class="main-nav__item"><a href="index.html"><i class="fas fa-home"></i>Inicio</a></li>
-        <li class="main-nav__item"><a href="cotizacion.html">Cotización</a></li>
-        <li class="main-nav__item"><a href="registro.html">Registrarse</a></li>
-        <li class="main-nav__item"><a href="#contactos">Ingrese</a></li>
-        <li class="main-nav__item"><a href="#footer">Contáctenos</a></li>
-      </ul>
-    </nav>
-    </div>
+  <nav class="nav">
+    <ul class="main-nav">
+      <li class="main-nav__item"><a href="index.html"><i class="fas fa-home"></i>Inicio</a></li>
+      <li class="main-nav__item"><a href="cotizacion.html">Cotización</a></li>
+      <li class="main-nav__item"><a href="registro.html">Registrarse</a></li>
+      <li class="main-nav__item"><a href="#contactos">Ingrese</a></li>
+      <li class="main-nav__item"><a href="#footer">Contáctenos</a></li>
+    </ul>
+  </nav>
   <!-- --------------------------------FIN DEL NAV------------------------- -->
 
   <!-- --------------------------------INICIO DEL MAIN------------------------- -->
@@ -62,9 +60,13 @@
   <!-- --------------------------------FIN DEL MAIN------------------------- -->
 
   <!-- --------------------------------INICIO DEL SECTION------------------------- -->
-  <section class="g-section">
+  <section>
+    <p>Inmuebles sugeridos</p>
+    <img src="img/Inmueble.jpg">
+    <input type="button" value="Cotizar">
     <table>
       <thead>
+        <h2>Filtro de Busqueda</h2>
       </thead>
       <tbody>
         <tr>
@@ -173,18 +175,12 @@
           <td>
         </tr>
         <tr>
-          <td><input type="button" value="Buscar">
-          <td>
+          <td colspan="2"><input type="button" value="Buscar">
+          </td>
         </tr>
-
-      </tbodye>
+        </tbodye>
     </table>
-    <div>
-      <h2>Inmuebles sugeridos</h2>
-        <img src="img/Inmueble.jpg">
-          <input type="button" value="Cotizar">
-        </div>
-</section>
+  </section>
   <!-- --------------------------------FIN DEL SECTION------------------------- -->
 
 
@@ -194,7 +190,7 @@
       <thead>
         <h2>Inicio de sesión</h2>
       </thead>
-      <tbody>
+      <div>
         <tr>
           <td>Usuario:</td>
           <td><input required type="text" name="usuario" placeholder="Escriba su usuario"></td>
@@ -209,7 +205,7 @@
         <tr>
           <td><a href="registro.html">Registrese</a></td>
         </tr>
-      </tbody>
+      </div>
     </table>
   </aside>
   <!-- --------------------------------FIN DEL ASIDE------------------------- -->
@@ -222,7 +218,7 @@
       <div class="contact-us">
         <h2 class="brand">Inmobiliaria Candelaria</h2>
         <p>Somos expertos en la búsqueda del hogar de tus sueños</p>
-        
+
       </div>
       <div class="social-media">
         <a href="./" class="social-media-icon">
@@ -235,7 +231,7 @@
           <i class='bx bxl-instagram'></i>
         </a>
       </div>
-      </div>
+    </div>
     <div class="line"></div>
     <div class="pie">
       <address>
